@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'tommy-black';
+    src: url(fonts/MADE\ TOMMY\ Black_PERSONAL\ USE.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tommy-bold';
+    src: url(fonts/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tommy-light';
+    src: url(fonts/MADE\ TOMMY\ Light_PERSONAL\ USE.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tommy-regular';
+    src: url(fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'tommy-medium';
+    src: url(fonts/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf) format('opentype');
+}
+
+
+
+body {
+    background-image: url(img/Design\ sem\ nome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'tommy-regular', sans-serif;
+    color: white;
+}
+header {
+    font-family: 'tommy-regular';
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.div1 {
+    width: 350px;
+    height: 500px;
+    margin-left: 70px;
+    padding-bottom: 5px;
+    background-color: #1f2024a8;
+    border-radius: 20px;
+}
+
+.div1 h3 {
+    font-family: 'tommy-medium';
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+.div1 h2 {
+    font-family: 'tommy-black';
+    margin: 15px 15px 0px 15px;
+    font-size: 3.2em;
+}
+.div1 p{
+    font-family: 'tommy-light';
+    margin-top: 0px;
+    font-size: 0.8em;
+}
+.div2 {
+    height: 178px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 45px;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #0d0e0f8c;
+}
+.div1 [type='submit']#buy1{
+    color: white;
+    background-image: linear-gradient(to right, #F23E16, #DB1109);
+    font-family: 'tommy-regular';
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.div1 [type='submit']#buy2{
+    color: white;
+    background-image: linear-gradient(to right, #1E75E0, #1554A1);
+    font-family: 'tommy-regular';
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.div1 [type='submit']#buy3{
+    color: white;
+    background-image: linear-gradient(to right, #20E01D, #17A315);
+    font-family: 'tommy-regular';
+    width: 120px;
+    height: 40px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: '✔️\00A0';
+    font-family: 'tommy-light';
+    text-align: left;
+}
